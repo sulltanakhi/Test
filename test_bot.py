@@ -7,12 +7,3 @@ while True:
         total=budget/workers
         print(total)
         break
-    except ZeroDivisionError:
-        print('can not divide by zero')
-        workers=input('Enter amount of workers')
-     except:
-         workers=input('Enter amount of workers as number') 
-         budget=input('Enter your budget as number')   
-
-
-
